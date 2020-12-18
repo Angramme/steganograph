@@ -14,8 +14,9 @@ data:example.example
 output:example.bmp
 bit-offset:0
 encrypt:1
+password_char:0
 ```
-*Notice: using bit-offset will reduce maximum file size that can be encoded.*
+*Note: using bit-offset will reduce maximum file size that can be encoded. password_char length must be one! leave it at 0 if you don't want password encryption...*
 
 Once you filled in the information, run `steg config.txt`.
 You should now see a new file created by the program.
