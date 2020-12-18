@@ -8,11 +8,13 @@ This program can encode data in a .bmp image by modifying the least significant 
 # Usage
 
 To encode data inside a .bmp image, first create a new config file with the `steg -new config.txt` command. Then fill all the information inside:
-> bitmap:example.bmp
-> data:example.example
-> output:example.bmp
-> bit-offset:0
-> encrypt:1
+```
+bitmap:example.bmp
+data:example.example
+output:example.bmp
+bit-offset:0
+encrypt:1
+```
 *Notice: using bit-offset will reduce maximum file size that can be encoded.*
 Once you filled in the information, run `steg config.txt`.
 You should now see a new file created by the program.
