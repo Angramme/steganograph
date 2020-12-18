@@ -16,6 +16,7 @@ bit-offset:0
 encrypt:1
 ```
 *Notice: using bit-offset will reduce maximum file size that can be encoded.*
+
 Once you filled in the information, run `steg config.txt`.
 You should now see a new file created by the program.
 
